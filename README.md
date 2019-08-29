@@ -36,9 +36,9 @@ You should see something similar to:
     Attempting to pair/connect
     INFO:agt.alexa_gadget:Attempting to reconnect to Echo device with address: 74:C2:46:CE:22:11
 
-Then, invoke Alexa and watch your Sense Hat light up:
+Then, invoke Alexa and watch your Sense Hat light up: __"Alexa, what time is it?"__
 
-    Alexa, what time is it?
+![Sense Hat](./img/rainbow.jpg)
 
 ## Resources
 
