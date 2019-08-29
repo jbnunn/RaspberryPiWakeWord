@@ -5,15 +5,8 @@ import logging
 import sys
 
 sense = SenseHat()
-
-sense.set_rotation(180)
-#sense.show_message("Hello World")
-
 red = (255, 0, 0)
-
-# sense.clear(red)
-# time.sleep(2)
-# sense.clear(off)
+blue = (0, 255, 0)
 
 from agt import AlexaGadget
 
@@ -33,15 +26,15 @@ class WakewordGadget(AlexaGadget):
         for state in directive.payload.states:
             if state.name == 'wakeword':
                 if state.value == 'active':
-                    logger.info('Wake word active - turn on LED')
-                    sense.clear(red)
+                    logger.info('Wake word active - turn on LED matrix')
+                    sense.clear(blue)
                 elif state.value == 'cleared':
-                    logger.info('Wake word cleared - turn off LED')
+                    logger.info('Wake word cleared - turn off LED matrix')
                     sense.clear()
 
 if __name__ == '__main__':
     try:
-        print("Attempting")
+        print("Attempting to pair/connect")
         WakewordGadget().main()
     finally:
         logger.debug('Cleaning up')
