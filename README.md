@@ -46,5 +46,3 @@ Then, invoke Alexa and watch your Sense Hat light up: __"Alexa, what time is it?
 ## Resources
 
 - [https://github.com/alexa/Alexa-Gadgets-Raspberry-Pi-Samples](https://github.com/alexa/Alexa-Gadgets-Raspberry-Pi-Samples)
-- [Bluetooth Commands](https://www.raspberrypi.org/forums/viewtopic.php?t=214373)
-- [https://github.com/alexa/Alexa-Gadgets-Raspberry-Pi-Samples/tree/master/src/examples/colorcycler](https://github.com/alexa/Alexa-Gadgets-Raspberry-Pi-Samples/tree/master/src/examples/colorcycler)
