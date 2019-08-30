@@ -1,13 +1,16 @@
-# Raspberry Pi Wake Word Detection
+# Raspberry Pi Wake Word Detection with Sense Hat
 
 _This repository is part of the Twitch series, "Voice + Robotics", found at [https://twitch.tv/amazonalexa/](https://twitch.tv/amazonalexa)._
 
-Following this code will allow you to create a connection between an Amazon Echo device that is paired via BlueTooth to a Raspberry Pi. In this example, the Raspberry Pi is equipped with a [Sense HAT](https://www.raspberrypi.org/products/sense-hat/), which provides an 8x8 LED matrix and sensors like an accelerometer, gyroscope, and more. The LED matrix will be used to show the succesful connection between the Raspberry Pi and Echo.
+Following this code will allow you to create a connection between an Amazon Echo device that is paired via BlueTooth to a Raspberry Pi. 
+This is heavily based off of the [Alexa Gadgets Raspberry Pi Wake Word](https://github.com/alexa/Alexa-Gadgets-Raspberry-Pi-Samples/tree/master/src/examples/wakeword) sample, but updated to work with a [Sense Hat](https://www.raspberrypi.org/products/sense-hat/).
+
+The Sense Hat provides an 8x8 LED matrix and sensors like an accelerometer, gyroscope, and more. The LED matrix will be used to show the succesful connection between the Raspberry Pi and Echo.
 
 You will need:
 
-* Raspberry Pi 3 and above
-* [Sense Hat](https://www.raspberrypi.org/documentation/hardware/sense-hat/) (optional for visual effects)
+* A Raspberry Pi (3 and above)
+* [Sense Hat](https://www.raspberrypi.org/documentation/hardware/sense-hat/) 
 
 ## Steps
 
