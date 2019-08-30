@@ -1,3 +1,6 @@
+# Based off of https://github.com/alexa/Alexa-Gadgets-Raspberry-Pi-Samples/blob/master/src/examples/wakeword/wakeword_gadget.py
+# and the Alexa Gadgets Toolkit samples for the Raspberry Pi, https://github.com/alexa/Alexa-Gadgets-Raspberry-Pi-Samples/ 
+
 from sense_hat import SenseHat
 
 import time
